@@ -56,42 +56,43 @@ It focuses on algorithm implementation and logical understanding of OS mechanism
 
 ---
 
-📂 Organization
+## 📂 Organization
 
-Programs can be arranged topic-wise for better structure:
+For better clarity and maintainability, programs can be organized topic-wise into the following categories:
 
-Scheduling
+- Scheduling  
+- Synchronization  
+- Deadlock  
+- Memory Management  
+- Page Replacement  
+- File Systems  
 
-Synchronization
+This structure helps in easy navigation and logical grouping of related programs.
 
-Deadlock
+---
 
-Memory Management
+## 🤝 Contributions
 
-Page Replacement
+Improvements and suggestions are always welcome.
 
-File Systems
+Possible contributions include:
 
-🤝 Contributions
+- Code optimization  
+- Improved documentation and comments  
+- Addition of new OS-related programs  
+- Bug fixes and error handling  
+- Better input/output formatting  
 
-Improvements and suggestions are welcome.
-Contributions can include:
+Pull requests and constructive feedback are appreciated.
 
-Code optimization
+---
 
-Better documentation
+## 👨‍💻 About
 
-Additional OS-related programs
+This repository is a personal collection of Operating Systems programs implemented in C, created as a practical reference for understanding OS concepts.
 
-Bug fixes
+**Maintained by:** Ganesh Prasad  
+**GitHub:** https://github.com/Ganesh40292  
 
-Pull requests and feedback are appreciated.
+This project is open-source and available for educational and reference purposes.
 
-👨‍💻 About
-
-This repository is a personal collection of Operating Systems programs implemented in C.
-
-Maintained by Ganesh Prasad
-GitHub: https://github.com/Ganesh40292
-
-Open-source and available for educational and reference purposes.
