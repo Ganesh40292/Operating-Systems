@@ -5,20 +5,20 @@
 ![Status](https://img.shields.io/badge/Status-Active-success.svg)
 ![License](https://img.shields.io/badge/License-Open%20Source-orange.svg)
 
-A collection of C programs implementing core Operating Systems concepts for academic learning and practice.
+A collection of C programs demonstrating fundamental Operating Systems concepts through practical implementations.
 
 ---
 
 ## 📚 Concepts Implemented
 
-### CPU Scheduling
-- FCFS  
-- SJF  
+### CPU Scheduling Algorithms
+- FCFS (First Come First Serve)  
+- SJF (Shortest Job First)  
 - Round Robin  
 - Priority Scheduling  
 - SCAN Disk Scheduling  
 
-### Synchronization
+### Process Synchronization
 - Producer–Consumer Problem  
 - Reader–Writer Problem  
 
@@ -26,18 +26,25 @@ A collection of C programs implementing core Operating Systems concepts for acad
 - Banker’s Algorithm  
 
 ### Memory Management
-- First Fit  
-- Best Fit  
-- Worst Fit  
+- First Fit Allocation  
+- Best Fit Allocation  
+- Worst Fit Allocation  
 
-### Page Replacement
-- FIFO  
-- LRU  
+### Page Replacement Algorithms
+- FIFO (First In First Out)  
+- LRU (Least Recently Used)  
 
-### File Systems
+### File System Management
 - Single Level Directory  
 - Two Level Directory  
 - Linked File Allocation  
+
+---
+
+## 🎯 Purpose
+
+This repository serves as a practical reference for understanding Operating Systems concepts using C programming.  
+It focuses on algorithm implementation and logical understanding of OS mechanisms.
 
 ---
 
@@ -45,49 +52,46 @@ A collection of C programs implementing core Operating Systems concepts for acad
 
 - GCC Compiler  
 - Any C IDE or Terminal  
+- Basic knowledge of C programming  
 
 ---
 
-Operating-Systems/
-│
-├── Scheduling/
-│   ├── FCFS.c
-│   ├── SJF.c
-│   ├── RoundRobin.c
-│   ├── Priority.c
-│   └── ScanDisk.c
-│
-├── Synchronization/
-│   ├── ProducerConsumer.c
-│   ├── Reader.c
-│   └── Writer.c
-│
-├── Deadlock/
-│   └── BankersAlgorithm.c
-│
-├── MemoryManagement/
-│   ├── FirstFit.c
-│   ├── BestFit.c
-│   └── WorstFit.c
-│
-├── PageReplacement/
-│   ├── FIFO.c
-│   └── LRU.c
-│
-├── FileSystems/
-│   ├── SingleLevelDirectory.c
-│   ├── TwoLevelDirectory.c
-│   └── LinkedFileAllocation.c
-│
-├── README.md
-└── .gitignore
+📂 Organization
+
+Programs can be arranged topic-wise for better structure:
+
+Scheduling
+
+Synchronization
+
+Deadlock
+
+Memory Management
+
+Page Replacement
+
+File Systems
+
+🤝 Contributions
+
+Improvements and suggestions are welcome.
+Contributions can include:
+
+Code optimization
+
+Better documentation
+
+Additional OS-related programs
+
+Bug fixes
+
+Pull requests and feedback are appreciated.
 
 👨‍💻 About
 
-This repository is built as a student-friendly learning resource for Operating Systems laboratory programs.
-It helps beginners understand OS concepts through practical C implementations.
+This repository is a personal collection of Operating Systems programs implemented in C.
 
 Maintained by Ganesh Prasad
 GitHub: https://github.com/Ganesh40292
 
-Open-source and free to use for educational purposes.
+Open-source and available for educational and reference purposes.
